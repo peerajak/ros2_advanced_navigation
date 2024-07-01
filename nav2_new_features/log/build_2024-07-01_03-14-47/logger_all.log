@@ -1,0 +1,92 @@
+[0.413s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.413s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f35667cd100>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f35667cd100>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f35667cda00>)
+[1.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.072s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/ros2_ws/src/nav2_new_features'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.087s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'nav2_new_features'
+[1.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'nav2_new_features' build argument 'cmake_args' from command line to 'None'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'nav2_new_features' build argument 'cmake_target' from command line to 'None'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'nav2_new_features' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'nav2_new_features' build argument 'cmake_clean_cache' from command line to 'False'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'nav2_new_features' build argument 'cmake_clean_first' from command line to 'False'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'nav2_new_features' build argument 'cmake_force_configure' from command line to 'False'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'nav2_new_features' build argument 'ament_cmake_args' from command line to 'None'
+[1.132s] Level 5:colcon.colcon_core.verb:set package 'nav2_new_features' build argument 'catkin_cmake_args' from command line to 'None'
+[1.132s] Level 5:colcon.colcon_core.verb:set package 'nav2_new_features' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.132s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_new_features' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/src/nav2_new_features/build/nav2_new_features', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features', 'merge_install': False, 'path': '/home/user/ros2_ws/src/nav2_new_features', 'symlink_install': False, 'test_result_base': None}
+[1.132s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.134s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/ros2_ws/src/nav2_new_features' with build type 'ament_python'
+[1.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_new_features', 'ament_prefix_path')
+[1.146s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/share/nav2_new_features/hook/ament_prefix_path.ps1'
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/share/nav2_new_features/hook/ament_prefix_path.dsv'
+[1.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/share/nav2_new_features/hook/ament_prefix_path.sh'
+[1.149s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.150s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.151s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/galactic'
+[1.366s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/ros2_ws/src/nav2_new_features'
+[1.367s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.367s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.368s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/galactic'
+[4.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/nav2_new_features': PYTHONPATH=/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base build/nav2_new_features build --build-base /home/user/ros2_ws/src/nav2_new_features/build/nav2_new_features/build install --prefix /home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features --record /home/user/ros2_ws/src/nav2_new_features/build/nav2_new_features/install.log --single-version-externally-managed
+[4.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/nav2_new_features' returned '0': PYTHONPATH=/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base build/nav2_new_features build --build-base /home/user/ros2_ws/src/nav2_new_features/build/nav2_new_features/build install --prefix /home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features --record /home/user/ros2_ws/src/nav2_new_features/build/nav2_new_features/install.log --single-version-externally-managed
+[4.641s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features' for CMake module files
+[4.641s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features' for CMake config files
+[4.642s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/lib'
+[4.642s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/bin'
+[4.642s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/lib/pkgconfig/nav2_new_features.pc'
+[4.642s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/lib/python3.8/site-packages'
+[4.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_new_features', 'pythonpath')
+[4.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/share/nav2_new_features/hook/pythonpath.ps1'
+[4.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/share/nav2_new_features/hook/pythonpath.dsv'
+[4.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/share/nav2_new_features/hook/pythonpath.sh'
+[4.644s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/bin'
+[4.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_new_features)
+[4.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/share/nav2_new_features/package.ps1'
+[4.646s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/share/nav2_new_features/package.dsv'
+[4.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/share/nav2_new_features/package.sh'
+[4.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/share/nav2_new_features/package.bash'
+[4.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/share/nav2_new_features/package.zsh'
+[4.651s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/src/nav2_new_features/install/nav2_new_features/share/colcon-core/packages/nav2_new_features)
+[4.652s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.652s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.652s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.652s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.674s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.677s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[4.677s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.678s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/nav2_new_features/install/local_setup.ps1'
+[4.680s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/src/nav2_new_features/install/_local_setup_util_ps1.py'
+[4.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/nav2_new_features/install/setup.ps1'
+[4.684s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/nav2_new_features/install/local_setup.sh'
+[4.684s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/src/nav2_new_features/install/_local_setup_util_sh.py'
+[4.685s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/nav2_new_features/install/setup.sh'
+[4.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/nav2_new_features/install/local_setup.bash'
+[4.688s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/nav2_new_features/install/setup.bash'
+[4.690s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/nav2_new_features/install/local_setup.zsh'
+[4.691s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/nav2_new_features/install/setup.zsh'
